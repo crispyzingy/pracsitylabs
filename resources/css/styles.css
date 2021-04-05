@@ -188,6 +188,9 @@ nav {
 .card {
   display: flex; /* [1] */
   flex-direction: column; /* [2] */
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20vh;
 }
 
 .card__content {
@@ -202,10 +205,10 @@ nav {
   min-height: 273px;
 }
 
-.grow h2 {
-  /* grid-area: grow; */
+/* .grow h2 {
+  grid-area: grow;
   display: block;
-}
+} */
 
 /* .black {
   font-color: #111;
