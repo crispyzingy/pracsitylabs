@@ -197,11 +197,9 @@ nav {
 }
 
 .card img{
-  /* width: 100%; */
+  width: 100%;
+  object-fit: cover;
   min-height: 273px;
-  /* height: auto; */
-  /* max-width: 100%; */
-  vertical-align: middle;
 }
 
 .grow h2 {
