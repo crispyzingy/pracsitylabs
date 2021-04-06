@@ -181,14 +181,14 @@ nav {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 16px;
+    grid-gap: 30px;
   }
 }
 
 .card {
   display: flex; /* [1] */
   flex-direction: column; /* [2] */
-  max-width: 300px;
+  max-width: 418px;
   margin: 0 auto;
   margin-top: 20vh;
 }
@@ -200,9 +200,15 @@ nav {
 }
 
 .card img{
-  width: 100%;
+  max-width: 100%;
   object-fit: cover;
-  min-height: 273px;
+  min-height: 193.5px;
+}
+
+.card__content {
+  /* Add space around the details */
+  padding: 16px 8px 8px 8px;
+  text-align: center;
 }
 
 /* .grow h2 {
