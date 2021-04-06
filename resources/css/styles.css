@@ -5,7 +5,7 @@ Black  : #24252a
 White  : #edf0f1
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
 /* ---------------------------------- */
 /* Navbar */
@@ -191,6 +191,8 @@ nav {
   min-width: 258px;
   margin: 0 auto;
   margin-top: 7vh;
+
+  border: 1px solid #E5E5E5;
 }
 
 
