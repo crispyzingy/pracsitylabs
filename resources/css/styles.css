@@ -180,7 +180,7 @@ nav {
 @media (min-width: 500px) {
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-gap: 30px;
   }
 }
@@ -188,10 +188,11 @@ nav {
 .card {
   display: flex; /* [1] */
   flex-direction: column; /* [2] */
-  max-width: 418px;
+  min-width: 258px;
   margin: 0 auto;
-  margin-top: 20vh;
+  margin-top: 7vh;
 }
+
 
 .card__content {
   flex-grow: 1; /* [3] */
