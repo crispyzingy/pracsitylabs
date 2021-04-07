@@ -119,6 +119,7 @@ header {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 .hero-text-box {
   position: absolute;
@@ -354,11 +355,32 @@ section.categories  {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* width: 265px; */
   height: 176.66px;
+  /* width: 265px; */
+  display: flex;
 }
+
 .title-1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+.title-2 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-3 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-4 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .title-2 {
   background: url(/resources/css/img/media/2.jpg) center center no-repeat;
   -webkit-background-size: cover;
@@ -367,6 +389,7 @@ section.categories  {
   background-size: cover;
   /* width: 265px; */
   height: 176.66px;
+  display: flex;
 }
 .title-3 {
   background: url(/resources/css/img/media/become-teacher.jpg) center center no-repeat;
@@ -376,6 +399,7 @@ section.categories  {
   background-size: cover;
   /* width: 265px; */
   height: 176.66px;
+  display: flex;
 }
 .title-4 {
   background: url(/resources/css/img/media/course-1.jpg) center center no-repeat;
@@ -385,6 +409,7 @@ section.categories  {
   background-size: cover;
   /* width: 265px; */
   height: 176.66px;
+  display: flex;
 }
 
 
