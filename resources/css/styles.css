@@ -349,16 +349,6 @@ section.categories  {
   text-align: center;
 }
 
-.title-1 {
-  background: url(/resources/css/img/media/blog-3.jpg) center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 176.66px;
-  /* width: 265px; */
-  display: flex;
-}
 
 .title-1 a {
   display: flex;
@@ -381,33 +371,39 @@ section.categories  {
   justify-content: center;
 }
 
-.title-2 {
-  background: url(/resources/css/img/media/2.jpg) center center no-repeat;
+.title-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/blog-3.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* width: 265px; */
+  height: 176.66px;
+  display: flex;
+}
+.title-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/2.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 176.66px;
   display: flex;
 }
 .title-3 {
-  background: url(/resources/css/img/media/become-teacher.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/become-teacher.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* width: 265px; */
   height: 176.66px;
   display: flex;
 }
 .title-4 {
-  background: url(/resources/css/img/media/course-1.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/course-1.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* width: 265px; */
   height: 176.66px;
   display: flex;
 }
