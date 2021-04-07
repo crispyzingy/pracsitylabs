@@ -280,11 +280,12 @@ nav {
 /* ---------------------------------- */
 
 .counters {
-  background: url(/resources/css/img/Media/bg_register_now.jpg) center center;
+  background: url(/resources/css/img/Media/bg_register_now.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #fff;
 }
 
 
