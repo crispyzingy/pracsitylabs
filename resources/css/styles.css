@@ -109,7 +109,7 @@ section h2 {
 }
 
 /* ------------------------------ */
-/* HEADER */
+/* SECTION-1 HEADER */
 /* ------------------------------ */
 
 header {
@@ -165,7 +165,7 @@ nav {
 } */
 
 /* ---------------------------------- */
-/* POPULAR COURSES */
+/* SECTION-2 POPULAR COURSES */
 /* ---------------------------------- */
 
 /* .grid-container {
@@ -316,6 +316,16 @@ nav {
   color: #fff;
   padding-bottom: 10px;
 }
+
+/* ---------------------------------- */
+/* SECTION-4 CATEGORIES */
+/* ---------------------------------- */
+
+section.categories  {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
 
 
 /* Mobile menu */
