@@ -109,7 +109,7 @@ section h2 {
 }
 
 /* ------------------------------ */
-/* HEADER */
+/* SECTION-1 HEADER */
 /* ------------------------------ */
 
 header {
@@ -119,6 +119,7 @@ header {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 .hero-text-box {
   position: absolute;
@@ -165,7 +166,7 @@ nav {
 } */
 
 /* ---------------------------------- */
-/* POPULAR COURSES */
+/* SECTION-2 POPULAR COURSES */
 /* ---------------------------------- */
 
 /* .grid-container {
@@ -315,6 +316,96 @@ nav {
   display: block;
   color: #fff;
   padding-bottom: 10px;
+}
+
+/* ---------------------------------- */
+/* SECTION-4 CATEGORIES */
+/* ---------------------------------- */
+
+section.categories  {
+  padding: 10px;
+}
+
+.categories .card {
+  border: none;
+}
+
+.categories a {
+  color: #fff;
+  display: inline-block;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.categories .course--title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.title-1 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-2 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-3 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-4 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/blog-3.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 176.66px;
+  display: flex;
+}
+.title-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/2.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 176.66px;
+  display: flex;
+}
+.title-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/become-teacher.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 176.66px;
+  display: flex;
+}
+.title-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.411)), url(/resources/css/img/media/course-1.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 176.66px;
+  display: flex;
 }
 
 
