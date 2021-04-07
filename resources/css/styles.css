@@ -323,7 +323,25 @@ nav {
 
 section.categories  {
   padding: 10px;
+}
+
+.categories a {
+  /* color: #fff; */
+  display: inline-block;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.categories .course--title {
+  font-size: 16px;
+  font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
 }
 
 
