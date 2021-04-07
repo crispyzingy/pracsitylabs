@@ -52,6 +52,15 @@ section {
   margin-top: 19px;
 }
 
+.blogposts p:after {
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  content: " ";
+  width: 35px;
+  margin-top: 19px;
+}
+
 /* ----- HEADINGS ------ */
 
 h1 {
@@ -323,7 +332,7 @@ nav {
 /* ---------------------------------- */
 
 section.categories  {
-  padding: 10px;
+  padding: 20px 20px 40px 20px;
 }
 
 .categories .card {
@@ -408,6 +417,61 @@ section.categories  {
   display: flex;
 }
 
+/* ---------------------------------- */
+/* SECTION-5 BLOGPOSTS */
+/* ---------------------------------- */
+
+.blogposts {
+  background: url(/resources/css/img/Media/bg_lastest_new.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* padding: 30px 0 85px; */
+}
+
+.blogposts h2, .blogposts p {
+  color: #fff;
+}
+
+.blogposts h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.blogposts p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+
+@media (min-width: 500px) {
+  .blogposts .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 0.3fr));
+    grid-gap: 30px;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.post img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.post h3 {
+  color: #fff;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 10px;
+}
 
 /* Mobile menu */
 
