@@ -280,7 +280,7 @@ nav {
 /* ---------------------------------- */
 
 .counters {
-  background: url(/resources/css/img/Media/bg_register_now.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/resources/css/img/Media/bg_register_now.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -291,8 +291,9 @@ nav {
 .counters .boxes {
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
+  margin: 75px;
 }
-
 
 .counter-box .count {
   text-align: center;
