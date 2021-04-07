@@ -40,6 +40,7 @@ i {
 }
 section {
   padding: 80px 0;
+  display: block;
 }
 
 .grow h2:after {
@@ -274,6 +275,20 @@ nav {
 .item-4 { grid-area: item-4; } */
 
 
+/* ---------------------------------- */
+/* SECTION-3 COUNTERS */
+/* ---------------------------------- */
+
+.counters {
+  background: url(/resources/css/img/Media/bg_register_now.jpg) center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
 /* Mobile menu */
 
 .menu {
@@ -456,5 +471,9 @@ nav {
   }
 }
 
+
+/* article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+} */
 
 
