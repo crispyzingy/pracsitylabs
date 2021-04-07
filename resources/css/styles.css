@@ -288,6 +288,14 @@ nav {
   background-color: #fff;
 }
 
+.counters .boxes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter-box .count {
+  text-align: center;
+}
 
 
 /* Mobile menu */
