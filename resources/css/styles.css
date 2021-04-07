@@ -52,6 +52,15 @@ section {
   margin-top: 19px;
 }
 
+.blogposts p:after {
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  content: " ";
+  width: 35px;
+  margin-top: 19px;
+}
+
 /* ----- HEADINGS ------ */
 
 h1 {
@@ -408,6 +417,34 @@ section.categories  {
   display: flex;
 }
 
+/* ---------------------------------- */
+/* SECTION-5 BLOGPOSTS */
+/* ---------------------------------- */
+
+.blogposts {
+  background: url(/resources/css/img/Media/bg_lastest_new.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.blogposts h2, .blogposts p {
+  color: #fff;
+}
+
+.blogposts h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: none;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.blogposts p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
 
 /* Mobile menu */
 
