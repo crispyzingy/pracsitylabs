@@ -40,6 +40,7 @@ i {
 }
 section {
   padding: 80px 0;
+  display: block;
 }
 
 .grow h2:after {
@@ -274,6 +275,49 @@ nav {
 .item-4 { grid-area: item-4; } */
 
 
+/* ---------------------------------- */
+/* SECTION-3 COUNTERS */
+/* ---------------------------------- */
+
+.counters {
+  background: linear-gradient(rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(/resources/css/img/Media/bg_register_now.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.counters .boxes {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 75px;
+}
+
+.counter-box .count {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  display: block;
+  margin: 0px;
+  padding-top: 12px;
+  color: #ffb606;
+}
+
+.counter-box .box-content {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  display: block;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+
 /* Mobile menu */
 
 .menu {
@@ -456,5 +500,9 @@ nav {
   }
 }
 
+
+/* article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+} */
 
 
