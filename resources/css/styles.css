@@ -325,8 +325,12 @@ section.categories  {
   padding: 10px;
 }
 
+.categories .card {
+  border: none;
+}
+
 .categories a {
-  /* color: #fff; */
+  color: #fff;
   display: inline-block;
   line-height: 25px;
   overflow: hidden;
@@ -344,6 +348,44 @@ section.categories  {
   text-align: center;
 }
 
+.title-1 {
+  background: url(/resources/css/img/media/blog-3.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* width: 265px; */
+  height: 176.66px;
+}
+.title-1 a {
+}
+.title-2 {
+  background: url(/resources/css/img/media/2.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* width: 265px; */
+  height: 176.66px;
+}
+.title-3 {
+  background: url(/resources/css/img/media/become-teacher.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* width: 265px; */
+  height: 176.66px;
+}
+.title-4 {
+  background: url(/resources/css/img/media/course-1.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* width: 265px; */
+  height: 176.66px;
+}
 
 
 /* Mobile menu */
