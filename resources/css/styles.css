@@ -358,7 +358,6 @@ section.categories  {
   text-align: center;
 }
 
-
 .title-1 a {
   display: flex;
   align-items: center;
@@ -471,6 +470,47 @@ section.categories  {
   line-height: 28px;
   text-align: center;
   margin-top: 10px;
+}
+
+/* ---------------------------------- */
+/* SECTION-6 FOOTER */
+/* ---------------------------------- */
+
+footer {
+  background-color: #111;
+  padding: 30px 0;
+}
+
+.copyright {
+  color: #999;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 13px;
+}
+
+.instructor {
+  background: linear-gradient(rgba(255,182,6,0.5), rgba(255,182,6,0.5)), url(/resources/css/img/Media/bg-footer.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.instructor h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  color: #333;
+  font-weight: 700;
+  padding: 90px 0 24px;
+  margin-bottom: 20px;
+}
+
+.instructor .text-box {
+  padding: 0 0 90px;
 }
 
 /* Mobile menu */
